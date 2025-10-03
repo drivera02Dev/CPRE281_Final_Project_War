@@ -1,0 +1,75 @@
+# Compile of comparator2.v was successful.
+vsim -gui work.comparator2
+# vsim -gui work.comparator2 
+# Start time: 16:36:10 on Apr 27,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.comparator2(fast)
+add wave -position insertpoint  \
+sim:/comparator2/A \
+sim:/comparator2/B \
+sim:/comparator2/AEB \
+sim:/comparator2/AW \
+sim:/comparator2/BW
+force -freeze sim:/comparator2/A 4'h4 0
+force -freeze sim:/comparator2/B 4'h8 0
+run 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:39:28 on Apr 27,2024, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 3
+# Compile of comparator2.v failed with 6 errors.
+# Compile of comparator2.v was successful.
+vsim -gui work.comparator2
+# vsim -gui work.comparator2 
+# Start time: 16:40:45 on Apr 27,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator2(fast)
+add wave -position insertpoint  \
+sim:/comparator2/A \
+sim:/comparator2/B \
+sim:/comparator2/AEB \
+sim:/comparator2/AW \
+sim:/comparator2/BW
+force -freeze sim:/comparator2/A 4'h8 0
+force -freeze sim:/comparator2/B 4'h7 0
+run 100
+quit -sim
+# End time: 16:42:24 on Apr 27,2024, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 3
+# Compile of comparator2.v was successful.
+vsim -gui work.comparator2
+# vsim -gui work.comparator2 
+# Start time: 16:42:45 on Apr 27,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator2(fast)
+add wave -position insertpoint  \
+sim:/comparator2/A \
+sim:/comparator2/B \
+sim:/comparator2/AEB \
+sim:/comparator2/AW \
+sim:/comparator2/BW
+force -freeze sim:/comparator2/A 4'h8 0
+force -freeze sim:/comparator2/B 4'h7 0
+run 100
+quit -sim
+# End time: 16:54:01 on Apr 27,2024, Elapsed time: 0:11:16
+# Errors: 0, Warnings: 2
+# Compile of comparator2.v was successful.
+vsim -gui work.comparator2
+# vsim -gui work.comparator2 
+# Start time: 16:54:17 on Apr 27,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator2(fast)
+add wave -position insertpoint  \
+sim:/comparator2/A \
+sim:/comparator2/B \
+sim:/comparator2/AEB \
+sim:/comparator2/AW \
+sim:/comparator2/BW
+force -freeze sim:/comparator2/A 4'h8 0
+force -freeze sim:/comparator2/B 4'h7 0
+run 100
+# End time: 22:10:18 on Apr 27,2024, Elapsed time: 5:16:01
+# Errors: 0, Warnings: 2
