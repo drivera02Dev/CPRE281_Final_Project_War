@@ -1,0 +1,10 @@
+module seven_seg_decoder (A0, A1, A2, A3, B0, B1, B2, B3, A, B, AB)
+	input A0, A1, A2, A3, B0, B1, B2, B3;
+	output A, B, AB;
+	
+
+	assign A = (A3 & ~B3) | (A2 & B2~) | ( A1 & B1~) | (
+	
+
+
+endmodule 

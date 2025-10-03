@@ -1,0 +1,9 @@
+module OutputLogic (Y1, Y2, x1, x0, B1, E, A, B); 
+	input x1, x0, B1, E, A, B; 
+	output Y1, Y2;
+	
+	Y1 = (~x1 & x0 & B1); 
+	Y2 = (~x1 & ~x0 & B1) | (~x1 & x0 & ~B1) | (x1 & ~x0 & ((E & ~A & ~B) & (~E & A & ~B) & (~E & ~A & B)));
+	
+
+endmodule 
